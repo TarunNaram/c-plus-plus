@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+    struct sample {
+        int x;
+        char y[10]; 
+    };
+int main()
+{
+    sample ob;
+    cin>>ob.x;
+    cin>>ob.y;
+    cout<<ob.x<<" "<<ob.y;
+}
